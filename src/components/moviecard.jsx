@@ -8,7 +8,7 @@ import apiConfig from "../api/apiConfig";
 
 const MovieCard = (props) => {
   const item = props.item;
-  const link = "/" + category[props.category] + "/" + item.id;  // Removed Config.HOME_PAGE
+  const link = "/" + category[props.category] + "/" + item.id;  
 
   const bg = apiConfig.w500Image(item.poster_path || item.backdrop_path);
 
