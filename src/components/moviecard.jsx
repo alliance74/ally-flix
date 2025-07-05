@@ -21,13 +21,14 @@ const MovieCard = (props) => {
         <button className="absolute inset-0 flex items-center justify-center bg-black/40 text-white text-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <i className="bx bx-play" />
         </button>
-
+<h6>hello</h6>
         
       </div>
       <h3 className="mt-2 text-white text-center text-sm font-semibold truncate">
         {item.title || item.name}
       </h3>
     </Link>
+    
     
   );
 };
