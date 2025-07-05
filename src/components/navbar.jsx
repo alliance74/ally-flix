@@ -43,7 +43,8 @@ function Navbar() {
         <li className="hover:text-red-500 cursor-pointer">Home</li>
         <li className="hover:text-red-500 cursor-pointer">Movies</li>
         <li className="hover:text-red-500 cursor-pointer">Series</li>
-        <li className="hover:text-red-500 cursor-pointer">My list</li>
+        <li className="hover:text-red-500 cursor-pointer">My  list</li>
+
 
         <form onSubmit={handleSearch} className="relative group">
           <input
